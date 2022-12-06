@@ -1,0 +1,21 @@
+.footer {
+  overflow: hidden;
+  background-color: #78866b;
+  padding: 20px 10px;
+}
+
+h2 {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 0px 5px;
+  font-size: 18px;
+}
+
+a:hover {
+  color: greenyellow;
+}

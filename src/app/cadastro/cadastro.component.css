@@ -1,0 +1,15 @@
+div {
+  background-color: #78866b;
+}
+
+section {
+  font-family: sans-serif, Tahoma, Verdana;
+}
+
+article {
+  float: left;
+}
+
+input {
+  margin: 5px;
+}

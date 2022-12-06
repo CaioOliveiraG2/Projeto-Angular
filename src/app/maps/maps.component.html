@@ -1,0 +1,26 @@
+<head>
+  <script type="text/javascript">
+    function initialize() {
+      var mapOptions = {
+        center: new google.maps.LatLng(-34.397, 150.644),
+        zoom: 8,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+      var map = new google.maps.Map(document.getElementById("map_canvas"),
+          mapOptions);
+    }
+  </script>
+</head>
+<body>
+  
+  <agm-map [fitBounds]="boundaries">
+    <agm-polyline strokeColor="blue">
+      <agm-polyline-point
+        *ngFor="let point of points"
+        [latitude]="point.lat"
+        [longitude]="point.lon"
+        >¨
+      </agm-polyline-point>
+    </agm-polyline>
+  </agm-map>
+</body>

@@ -1,0 +1,16 @@
+.banner {
+  background-image: url('https://www.neoenergia.com/pt-br/te-interessa/meio-ambiente/PublishingImages/fotos/guia_reciclagem.png');
+  height: 100px;
+  background-position: center top;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.searchbar {
+  width: 70%;
+  margin: 3% auto;
+}
+
